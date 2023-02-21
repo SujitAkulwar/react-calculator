@@ -11,34 +11,57 @@ h1{
 body {
     background-color: #282c34;
     color: white;
+    display: flex;
+    margin: auto;
     font-family: Sans-Serif;
     text-align: center;
+    justify-content: center;
   }
+#container{
+    background-color: rgb(122, 193, 255);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
 input {
-    width: 80vh;
+    width: 55vh;
     height: 10vh;
     font-size: 6vh;
     border-radius: 5px;
     color: white;
     background-color: black;
-    border: 6px rgb(255, 255, 255) solid;
+    border: 2px rgb(255, 255, 255) solid;
+    margin: 0 20px 0 0;
+    padding: 2px 4px;
 }  
 input:hover{
-    border: 6px rgb(0, 0, 0) solid;
+    border: 2px rgb(0, 0, 0) solid;
     background-color: white;
+    color: black;
 }
-#col,#col2{
-    height: 20vh;
-    width: 20vh;
+.inp{
+    margin: 0 0 10px 0;
+}
+#col{
+    height: 15vh;
+    width: 15vh;
     border: 2px rgb(255, 255, 255) solid;
     border-radius: 5px;
     background-color: black;
     font-size: 6vh;
     color: rgb(255, 255, 255);
     cursor: pointer;
+    margin: 10px;
 }  
 #col2{
-    width: 16vh;
+    width: 10vh;
+    height: 10vh;
+    font-size: 6vh;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    border: 2px rgb(255, 255, 255) solid;
 }
 #col:hover,#col2:hover{
     background-color: white;
